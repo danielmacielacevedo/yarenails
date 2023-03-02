@@ -1024,6 +1024,18 @@ h5
 }
 /* end feed ig */
 
+.calendly-inline-widget
+{
+    width: 100%;
+    min-width:320px;
+    height:700px;
+}
+
+
+
+
+
+
 .contact-section-container
 {
     position: relative;
@@ -1630,6 +1642,11 @@ h5
     .slider-projects-container::-webkit-scrollbar
     {
         display: none;
+    }
+
+    .calendly-inline-widget
+    {
+        height:1100px;
     }
 
     /* section love */
