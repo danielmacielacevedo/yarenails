@@ -7,6 +7,9 @@
     <title>YareNails Studio</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Oswald:wght@600&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header-container" id="mobile-home">
@@ -21,6 +24,7 @@
                         <div class="nav-links-container">
                             <ul class="nav-links">
                                 <li><a href="../">Inicio</a></li>
+                                <li><a href="../">Cursos</a></li>
                                 <li><a href="./contacto">Contacto</a></li>
                             </ul>
                             <div class="nav-social-media">
@@ -49,6 +53,7 @@
                     <div class="menu-mobile-links">
                         <ul class="links-mobile">
                             <li><a class="mobile-inicio" href="#mobile-home">Inicio</a></li>
+                            <li><a class="mobile-inicio">Cursos</a></li>
                             <li><a href="./contacto">Contacto</a></li>
                          </ul>
                          <div class="menu-mobile-social-media">
@@ -72,20 +77,21 @@
                         <article class="article-blog">
                             <div class="article-blog-info-container">
                                 <div class="article-blog-info">
+                                    <img id="featured-image" src="./assets/featured-image.png" alt="featured-image-yarenails">
+
                                     <div class="featured-top">
-                                        <h1>Para lucir</h1>
-                                        <h2>UÑAS PERFECTAS</h2>
+                                        <h1 id="top-featured-title">Para lucir</h1>
+                                        <h2 id="bottom-featured-title">UÑAS PERFECTAS</h2>
                                     </div>
-    
     
                                     <div class="featured-bottom">
                                         
-                                        <p>Hacemos todo tipo de diseño!</p>
+                                        <!-- <p>Hacemos todo tipo de diseño!</p> -->
                                         
                                         <div class="article-data">
                                             <div class="interactive-data">
                                                 <div class="primary-buttons-article">
-                                                    <a class="button-b1" href="./catalogo/P001">Agendar cita</a>
+                                                    <a class="button-b1" href="#contact">Agendar cita</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -97,87 +103,7 @@
                 </div>
 
                 <div class="elfsight-app-fbe5c135-8f91-4fe2-a141-e33205d12d25"></div>
-    
-                <!-- <div class="right-section">
-                    <div class="pinned-projects">
-                        <article class="article-project">
-                            <a href="./catalogo/P001"><img class="article-project-cover" src="./assets/home_preview/1.jpg" alt=""></a>
-                        </article>
-    
-                        <article class="article-project">
-                            <a href="./catalogo/P004"><img class="article-project-cover" src="./assets/home_preview/2.jpg" alt=""></a>
-                        </article>
-    
-                        <article class="article-project">
-                            <a href="./catalogo/P001"><img class="article-project-cover" src="./assets/home_preview/3.jpg" alt=""></a>
-                        </article>
-    
-                    </div>
-    
-                    <div class="pinned-projects">
-                        <article class="article-project">
-                            <a href="./catalogo/P002"><img class="article-project-cover" src="./assets/home_preview/4.jpg" alt=""></a>
-                        </article>
-    
-                        <article class="article-project">
-                            <a href="./catalogo/P001"><img class="article-project-cover" src="./assets/home_preview/5.jpg" alt=""></a>
-                        </article>
-    
-                        <article class="article-project">
-                            <a href="./catalogo/P002"><img class="article-project-cover" src="./assets/home_preview/6.jpg" alt=""></a>
-                        </article>
-    
-                    </div>
 
-                    <div class="pinned-projects">
-                        <article class="article-project">
-                            <a href="./catalogo/P002"><img class="article-project-cover" src="./assets/home_preview/7.jpg" alt=""></a>
-                        </article>
-    
-                        <article class="article-project">
-                            <a href="./catalogo/P001"><img class="article-project-cover" src="./assets/home_preview/8.jpg" alt=""></a>
-                        </article>
-    
-                        <article class="article-project">
-                            <a href="./catalogo/P002"><img class="article-project-cover" src="./assets/home_preview/9.jpg" alt=""></a>
-                        </article>
-    
-                    </div>
-
-                    <div class="pinned-projects">
-                        <article class="article-project">
-                            <a href="./catalogo/P002"><img class="article-project-cover" src="./assets/home_preview/10.jpg" alt=""></a>
-                        </article>
-    
-                        <article class="article-project">
-                            <a href="./catalogo/P001"><img class="article-project-cover" src="./assets/home_preview/11.jpg" alt=""></a>
-                        </article>
-    
-                        <article class="article-project">
-                            <a href="./catalogo/P002"><img class="article-project-cover" src="./assets/home_preview/12.jpg" alt=""></a>
-                        </article>
-    
-                    </div>
-    
-                    <div class="pinned-projects">
-                        <article class="article-project">
-                            <a href="#"><img class="article-project-cover" src="./assets/home_preview/13.jpg" alt=""></a>
-                        </article>
-    
-                        <article class="article-project">
-                            <a href="#"><img class="article-project-cover" src="./assets/home_preview/14.jpg" alt=""></a>
-                        </article>
-    
-                        <article class="article-project more-button">
-                            <a href="./catalogo/elegir">
-                                <div class="background-more-button">
-                                    <img class="article-project-cover" src="./assets/home_preview/15.jpg" alt="">
-                                    <span>Ver más</span>
-                                </div>
-                            </a>
-                        </article>
-                    </div>
-                </div> -->
             </div>
         </section>
     
@@ -206,7 +132,7 @@
                             </div>
                             <div class="inputBox">
                                 <textarea name="Message" required="required"></textarea>
-                                <span>Detalles (Opcional)
+                                <span>Detalles (opcional)
                                 </span>
                                 <i></i>
                             </div>
@@ -230,16 +156,20 @@
                     <div class="footer-info">
                         <ul class="footer-social-media">
                             <h3>Contacto</h3>
-                            <li><a target="_blank" rel="noreferrer" href="#">Prol. Pino Suarez 3010 Guadalupe Victoria, Durango, Mexico </a></li>
-                            <li><a target="_blank" rel="noreferrer" href="#">+52 (618) 000 0000</a></li>
-                            <li><a target="_blank" rel="noreferrer" href="#">contacto@yarenails.com.mx </a></li>
+                            <div class="contact-footer-details">
+                                <li><a target="_blank" rel="noreferrer" href="#">Prol. Pino Suarez 3010 Guadalupe Victoria, Durango, Mexico </a></li>
+                                <li><a target="_blank" rel="noreferrer" href="#">+52 (618) 000 0000</a></li>
+                                <li><a target="_blank" rel="noreferrer" href="#">contacto@yarenails.com.mx </a></li>
+                            </div>
                         </ul>
                     </div>
 
                     <div class="footer-info">
                         <ul class="footer-social-media">
                             <h3>Nuestras redes</h3>
-                            <li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/yarenailsdgo/"> <span></span> Instagram</a></li>
+                            <div>
+                                <li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/yarenailsdgo/"> <span></span> Instagram</a></li>
+                            </div>
                         </ul>
                     </div>
                 </div>
